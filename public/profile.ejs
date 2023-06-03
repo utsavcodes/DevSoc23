@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Profile - ProsTech</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+    <style>
+        .formr {
+            padding: 20px;
+            background-color: rgb(13, 110, 253, 0.15);
+            border-color: rgb(13, 110, 253, 0.3);
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 20px;
+            height: auto;
+        }
+
+        .navr {
+            background-color: #7286D3;
+        }
+
+        .row {
+            padding-bottom: 12px;
+        }
+
+        .form-label {
+            margin-bottom: 3px;
+        }
+
+        #user {
+            padding-top: 110px;
+        }
+
+        .mb-3 {
+            padding-bottom: 12px;
+        }
+
+        h2 {
+            margin-bottom: 0px;
+        }
+
+        .btnr {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <body id="page-top">
+
+        <style>
+            .user-icon {
+                width: 40px;
+                height: 40px;
+            }
+        
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+        </style>
+        
+        <body id="page-top">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/logo1.png" alt="ProsTech Logo" style="width: 55px; height: 55px;">
+                    </a>
+                    <span class="navbar-text text-white fw-bold ms-3" style="font-family: 'Montserrat', sans-serif;">
+                        <span style="color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; font-size: 20px;">ProsTech</span>
+                    </span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold" href="index.html">Home</a></li>
+                            <li class="nav-item nav-segment nav-segment2"><a class="nav-link text-white fw-bold" href="scan.html">Scan</a></li>
+                            <li class="nav-item nav-segment nav-segment3"><a class="nav-link text-white fw-bold" href="cart.html">Cart</a></li>
+                            <li class="nav-item dropdown">
+                                
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://i.pravatar.cc/40" alt="User Profile" class="rounded-circle me-2 user-icon" style="background-color: blue; width: auto; height: auto; transition: transform 0.3s, box-shadow 0.3s;">
+                                  </a>
+                                  
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item username-item"><%= name =></a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    
+                                    <li>
+                                        <form action="/logout" method="post">
+                                            <button type="submit">logout</button>
+                                        </form></li>
+                                  </ul>
+                                  
+                                  
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </body>
+        
+        <section class="vh-100" style="background-color: #f4f5f7;">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                  <div class="card mb-3" style="border-radius: .5rem;">
+                    <div class="row g-0">
+                      <div class="col-md-4 gradient-custom text-center text-white"
+                        style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                        <img src="https://i.pravatar.cc/40"
+                          alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                        <h5>Bhanu Shina</h5>
+                        <i class="far fa-edit mb-5"></i>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body p-4">
+                          <h6>Information</h6>
+                          <hr class="mt-0 mb-4">
+                          <div class="row pt-1">
+                            <div class="col-6 mb-3">
+                              <h6>Name</h6>
+                              <p class="text-muted">Bhanu Shina</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Email</h6>
+                              <p class="text-muted">info@example.com</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Address</h6>
+                              <p class="text-muted">123 Main St, City, State</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Phone</h6>
+                              <p class="text-muted">123 456 789</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Amputation Type</h6>
+                              <p class="text-muted">Leg</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>DOB</h6>
+                              <p class="text-muted">January 1, 1990</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Age</h6>
+                              <p class="text-muted">33</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Location</h6>
+                              <p class="text-muted">City, State</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Recent Visit Date</h6>
+                              <p class="text-muted">May 15, 2023</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Next Visit</h6>
+                              <p class="text-muted">June 10, 2023</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                              <h6>Slot Registered</h6>
+                              <p class="text-muted">9:00 AM - 10:00 AM</p>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-start">
+                            <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                            <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                            <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    
+
+
+    <style>
+
+        .username-item {
+            font-weight: bold;
+            color: blue;
+          }
+          
+
+        .row {
+            padding-bottom: 0px;
+        }
+        .mb-3 {
+            padding-bottom: 0px;
+        }
+
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #f6d365;
+            
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right bottom, rgb(10, 68, 215), rgb(93, 105, 184));
+            
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right bottom, rgb(6, 96, 193), rgb(66, 10, 164))
+            }
+        header {
+            padding-top: 5rem;
+            padding-bottom: 6rem;
+        }
+
+        .navbar {
+            background-image: radial-gradient(circle, #3b3bc6, #2222f7);
+        }
+        .user-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+    </style>
+
+   
+
+
+
+
+
+
+<!-- 
+    <footer class="py-5 bg-primary">
+        <div class="container px-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-last text-lg-end">
+                    <a class="text-decoration-none text-white" href="index.html">
+                        <h4 class="m-0">Home 🔝</h4>
+                    </a>
+                </div>
+                <div class="col-lg-6 order-lg-first text-lg-start">
+                    <p class="m-0 text-white">&copy; ProsTech 2023</p>
+                    <a href="#top" class="text-white back-to-top"><i class="bi bi-arrow-up-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script>
+        function scrollFunction() {
+            if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+                document.getElementById("mainNav").style.top = "-70px";
+            } else {
+                document.getElementById("mainNav").style.top = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

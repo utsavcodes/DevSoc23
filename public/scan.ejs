@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ProsTech - take a scan</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+          h3{
+        color:rgb(2,54,68);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        color:rgb(2,54,68);
+        margin-bottom: 0;
+    }
+    h2,p{
+        color:rgb(2,54,68);
+        text-align: justify;
+    }
+    .col{
+        padding: 10px;
+    }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg  " id="">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="images/logo-sm.png" alt="ProsTech Logo" style="width: 55px; height: 55px;">
+            </a>
+            <span class="navbar-text text-white fw-bold ms-auto me-3" style="font-family: 'Montserrat', sans-serif;">
+                <h1>ProsTech</h1>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item nav-segment nav-segment3"><a class="nav-link text-white fw-bold"
+                            href="/"> <h3>Home</h3></a></li>
+                
+                    <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold"
+                            href="/login"> <h3>Login </h3></a></li>
+
+
+                            <li class="nav-item dropdown">
+                                
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://i.pravatar.cc/40" alt="User Profile" class="rounded-circle me-2 user-icon" style="color:black;background-color: blue; width: auto; height: 32px; transition: transform 0.3s, box-shadow 0.3s;">
+                                  </a>
+                                  
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item username-item">BhanuPratap07</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><Center>
+                                        <form action="/logout" method="get">
+                                            <button class="btn btn-outline-dark" type="submit">Logout</button>
+                                        </form>
+                                    </Center>
+                                       
+                                    </li>
+                                  </ul>
+                                  
+                                  
+                            </li>
+                            
+                            <li class="nav-item nav-segment nav-segment1"><p class="nav-link text-white fw-bold"
+                                href="/l"> <h3>&emsp; </h3></p></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="images/logo-sm.png" alt="ProsTech Logo" style="width: 55px; height: 55px;">
+            </a>
+            <span class="navbar-text text-white fw-bold ms-3" style="font-family: 'Montserrat', sans-serif;">
+                <span style="color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; font-size: 20px;">ProsTech</span>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold" href="index.html">Home</a></li>
+                    <li class="nav-item nav-segment nav-segment2"><a class="nav-link text-white fw-bold" href="scan.html">Scan</a></li>
+                    <li class="nav-item nav-segment nav-segment3"><a class="nav-link text-white fw-bold" href="cart.html">Cart</a></li>
+                    <li class="nav-item dropdown">
+                        
+                        <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://i.pravatar.cc/40" alt="User Profile" class="rounded-circle me-2 user-icon" style="background-color: blue; width: auto; height: auto; transition: transform 0.3s, box-shadow 0.3s;">
+                          </a>
+                          
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item username-item">BhanuPratap07</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/profile">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                          </ul>
+                          
+                          
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!-- Navigation
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-dim fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+
+            <a class="navbar-brand" href="/">
+                <img src="../public/images/logo-sm.png" alt="" height="100px">
+            </a>
+
+            <span class="navbar-text text-white fw-bold ms-3" style="font-family: 'Montserrat', sans-serif;">
+                <span
+                    style="color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; font-size: 20px;">ProsTech</span>
+
+            </span>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold"
+                            href="index.html">Home</a></li>
+                    <li class="nav-item nav-segment nav-segment2"><a class="nav-link text-white fw-bold"
+                            href="cart.html">Cart</a></li>
+                    <li class="nav-item nav-segment nav-segment3"><a class="nav-link text-white fw-bold"
+                            href="user.html">LogIn/Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+
+
+    <!-- Submit section -->
+
+    <section id="submit">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <br>
+                    <h3 style="font-size: 35px;">Submit Your Scan</h3>
+                    <h3>
+                        <br>
+
+                        <p class="lead">Please select the type of amputation to complete the process.</p>
+                    </h3>
+                    <br>
+                    <form action="upload.php" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <br>
+                                    <label for="amputationType" class="form-label">Type of Amputation:</label>
+                                    <select class="form-select" id="amputationType" name="amputationType" required>
+                                        <option value="">Select Amputation Type</option>
+                                        <option value="Leg">Leg</option>
+                                        <option value="Arm">Arm</option>
+                                        <option value="Hand">Hand</option>
+                                        <option value="Foot">Foot</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <br>
+                                    <br>
+                                    <label for="imageUpload" class="form-label">Select Image:</label>
+                                    <input class="form-control" type="file" id="imageUpload" name="imageUpload"
+                                        accept="image/*" required>
+                                </div>
+                                <button class="btn btn-lg btn-primary" type="submit">Upload Image</button>
+                            </div>
+                            <div class="col-md-6 text-center mt-4 mt-md-0">
+                                <img src="images/submitPage.png" alt="User Image" class="img-fluid"
+                                    style="width: 1200px; height: auto;">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results section -->
+    <br><br><br><br><br>
+    <section id="results">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8 order-lg-2 text-center">
+                    <h2>Measurement Results</h2>
+                    <p class="lead">Here are the measurement results based on the uploaded image:</p>
+                    <div id="measurementResults" class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Length</td>
+                                    <td>Prosthetic Leg For Below Knee Amputees</td>
+                                </tr>
+                                <tr>
+                                    <td>Breadth</td>
+                                    <td>Stainless Steel/polyurethane</td>
+                                </tr>
+                                <tr>
+                                    <td>Depth</td>
+                                    <td>1.3 kg</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-1 text-center">
+                    <img src="images/register.png" alt="Location Image" class="img-fluid"
+                        style="width: 600px; height: auto;">
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+
+    <section id="catalogue">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <center></center>
+                    
+                    <p class="lead">Here are some suggested prosthetics based on the measurement results:</p>
+                    <div id="prostheticSuggestions">
+
+                        <div class="row">
+                            
+
+                                <% data.forEach(function(item) { %>
+                                    <div class="col col-lg-2"></div>
+                                    <div class="card border-primary">
+                                        <img src="<% item.uri %>" class="card-img-top" alt="Prosthetic 1">
+    
+    
+                                        <div class="card-body text-start d-flex flex-column">
+                                            <h5 class="card-title"><% item.name %></h5>
+                                            <p class="card-text">
+                                                <strong>Structural Height:</strong> 18cm<br>
+                                                <strong>Size-Range:</strong> 22cm ~ 27cm<br>
+                                                <strong>Structural-Interval:</strong> 1cm<br>
+                                                <strong>Material Type:</strong> Leather<br>
+                                                <strong>Load Range:</strong> 110 kg<br>
+                                                <strong>Color:</strong> Carbon Black
+                                            </p>
+                                            <button class="btn btn-primary mx-auto">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                  <% }); %>
+
+
+                                
+
+
+
+
+                                
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <footer class="py-5 bg-primary">
+        <div class="container px-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-last text-lg-end">
+                    <a class="text-decoration-none text-white" href="index.html">
+                        <h1 class="m-0"> ͎ </h1>
+                    </a>
+                </div>
+                <div class="col-lg-6 order-lg-first text-lg-start">
+                    <p class="m-0 text-white">&copy; ProsTech 2023</p>
+                    <a href="#top" class="text-white back-to-top"><i class="bi bi-arrow-up-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | Node Auth</title>
+    <style>
+      button {
+        padding: 10px 17px;
+        margin-top: 1rem;
+        font-size: 1rem;
+        background: #eee;
+        border: 1px solid #333;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Welcome You Are Authenticated</h3>
+    <img
+      style="width: 200px;"
+      src="https://image.shutterstock.com/image-vector/top-secret-stamp-grunge-texture-260nw-1388840021.jpg"
+      alt="secret image"
+    />
+
+    <form action="/logout" method="POST">
+      <button>Logout</button>
+    </form>
+  </body>
+</html> -->

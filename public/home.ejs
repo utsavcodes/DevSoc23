@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ProsTech - Unifiying Prosthetic</title>
+    <link rel="icon" type="image/x-icon" href="assets/topicon.png" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+
+    <!-- Other meta tags and stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    </head>
+
+    <style>
+        section {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        header {
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+        }
+
+        h3 {
+            color: rgb(2, 54, 68);
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: 600;
+            color: rgb(2, 54, 68);
+            margin-bottom: 0;
+        }
+
+        h2,
+        p {
+            color: rgb(2, 54, 68);
+            text-align: justify;
+            font-weight: 400;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: rgb(2, 54, 68);
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+        h4 {
+            color: rgb(2, 54, 68);
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .col-lg-8 ul li p {
+            font-size: 17px;
+            color: rgb(2, 54, 68);
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #4f8aff;
+            padding: 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .back-to-top a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .social-icons {
+            margin-right: 10px;
+            width: auto;
+        }
+
+        .social-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .footer-text p {
+            margin: 0;
+            color: white;
+            font-size: 14px;
+            align-items: start ;
+        }
+    </style>
+
+</head>
+
+
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="images/logo-sm.png" alt="ProsTech Logo" style="width: 55px; height: 55px;">
+            </a>
+            <span class="navbar-text text-white fw-bold ms-auto me-3" style="font-family: 'Montserrat', sans-serif;">
+                <h1>ProsTech</h1>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item nav-segment nav-segment3"><a class="nav-link text-white fw-bold"
+                            href="#services">
+                            <h3>Services</h3>
+                        </a></li>
+                    <li class="nav-item nav-segment nav-segment2"><a class="nav-link text-white fw-bold"
+                            href="#contact">
+                            <h3>Contact</h3>
+                        </a></li>
+
+                    <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold" href="/login">
+                            <h3>Login </h3>
+                        </a></li>
+                    <li class="nav-item nav-segment nav-segment1"><a class="nav-link text-white fw-bold"
+                            href="/register">
+                            <h3>Sign up </h3>
+                        </a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <!-- Rest of the code -->
+    </nav>
+
+    <script>
+        // Injected JavaScript code
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbar = document.querySelector('#mainNav');
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 0) {
+                    navbar.classList.add('navbar-shrink');
+                } else {
+                    navbar.classList.remove('navbar-shrink');
+                }
+            });
+        });
+
+    </script>
+
+
+
+    <header class="bg-white text-dark">
+        <div class="container px-4 text-center">
+            <div class="my-4">
+                <center>
+                    <h2 class="my-4">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Empowering Lives Through Innovative Prosthetic Solutions
+                    </h2>
+                </center>
+
+            </div>
+
+            <div class="my-1">
+                <div class="mb-4">
+                    <img src="images/1.png" alt="Image" class="my-2"
+                        style="width: 700px; height: auto; display: block; margin: 0 auto;">
+                </div>
+
+                <div class="my-1 d-flex justify-content-center align-items-center">
+                    <form action="/scan" method="get">
+                        <button class="btn btn-md btn-outline-dark" type="submit"
+                            onclick="window.location.href='scan.html';">Take a Scan</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="bg-light" id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>About ProsTech</h2>
+                    <p class="lead text-justify">At ProsTech, we understand the unique challenges faced by individuals
+                        who have
+                        experienced limb loss. Our mission is to simplify the process of finding the perfect prosthetic
+                        that
+                        not only restores functionality but also matches your individual needs and preferences. With our
+                        advanced AI and ML algorithms, we have created an intuitive system that takes into account the
+                        size
+                        and shape of your injury. By using AR camera scanning technology, we accurately assess your
+                        missing
+                        body parts and recommend the most suitable prosthetics available in our inventory.</p>
+                </div>
+
+                <div class="my-1 text-center">
+                    <img src="images/2.png" alt="Image" class="my-2"
+                        style="width: 700px; height: auto; display: block; margin: 0 auto;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="services">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Services We Offer</h2>
+                    <p class="lead text-justify">Discover the future of prosthetic recommendation at our website. Using
+                        the power of
+                        machine learning, we offer a simple solution for amputees. Just scan your wound, and our system
+                        will
+                        recommend the perfect prosthetic based on the size and shape of your injury. Say goodbye to the
+                        guesswork and find a personalized prosthetic that fits you like a glove. Experience the
+                        convenience
+                        and accuracy of our technology by visiting our website today!</p>
+                </div>
+
+
+                <div class="my-1 text-center">
+                    <img src="/images/3.png" alt="Image" class="my-2"
+                        style="width: 700px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="my-1 d-flex justify-content-center align-items-center">
+                    <button class="btn btn-md btn-outline-dark" type="submit"
+                        onclick="window.location.href='scan.html';">Try
+                        Out </button>
+                </div>
+
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <ul>
+                            <br>
+                            <li>
+
+                                <h4>Advanced Prosthetic Recommendation</h4>
+                                <p class="lead text-justify">Say goodbye to guesswork! Our state-of-the-art technology
+                                    removes the uncertainty involved in selecting a prosthetic. By leveraging machine
+                                    learning, we analyze data from thousands of prosthetics and match them to your
+                                    specific requirements. This ensures a personalized and comfortable fit that enhances
+                                    mobility and quality of life.</p>
+                            </li>
+
+                            <li>
+                                <h4>Seamless AR Camera Scanning</h4>
+                                <p class="lead text-justify">Our innovative AR camera scanning feature enables you to
+                                    capture precise measurements of your missing body parts. Simply use your smartphone
+                                    or compatible device to scan the affected area, and our system will generate
+                                    accurate measurements for a customized prosthetic solution.</p>
+
+                            </li>
+
+                            <li>
+                                <h4>Extensive Prosthetic Catalog</h4>
+                                <p class="lead text-justify">We offer an extensive range of high-quality prosthetics
+                                    from trusted manufacturers. Our catalog includes options for various levels of limb
+                                    loss, ensuring we have the perfect fit for every individual. Explore our collection
+                                    to find prosthetics that cater to your unique needs, style, and preferences.</p>
+
+                            </li>
+                            <li>
+                                <h4>Expert Support and Guidance</h4>
+                                <p class="lead text-justify">Our team of experienced professionals is here to guide you
+                                    throughout your prosthetic journey. From initial consultations to post-prosthetic
+                                    care, we provide comprehensive support and expertise, ensuring a smooth and
+                                    empowering experience for all our clients..</p>
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-light" id="why">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Why Choose ProsTech?</h2>
+                    <p class="lead"> By combining AI, ML, and AR camera scanning, we harness the latest advancements in
+                        technology to provide accurate measurements and personalized recommendations. Our commitment to
+                        innovation guarantees that you receive state-of-the-art prosthetic solutions.</p>
+
+                    <div class="my-1 text-center">
+                        <img src="images/4.png" alt="Image" class="my-2"
+                            style="width: 700px; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                    <ul>
+
+                        <h5>
+                            <li>
+                                <h4>Personalized Approach</h4>
+                                <p class="lead text-justify">
+                                    We prioritize your individuality, understanding that each amputee has unique
+                                    requirements. Our AI-driven system considers your specific circumstances, ensuring a
+                                    personalized prosthetic solution that matches your lifestyle and goals.
+                                </p>
+                            </li>
+
+                            <li>
+
+                                <h4>Convenience and Accessibility</h4>
+                                <p class="lead text-justify">
+                                    By combining AI, ML, and AR camera scanning, we harness the latest advancements in
+                                    technology to provide accurate measurements and personalized recommendations. Our
+                                    commitment to innovation guarantees that you receive state-of-the-art prosthetic
+                                    solutions.
+                                </p>
+                            </li>
+
+
+                            <li>
+                                <h4>Empowering Lives </h4>
+                                <p class="lead text-justify">
+                                    ProsTech brings the convenience of online accessibility to the prosthetic industry.
+                                    Our user-friendly website allows you to explore options, receive recommendations,
+                                    and make informed decisions from the comfort of your own home.
+                                </p>
+
+                            </li>
+
+
+                            <li>
+                                <h4>Expert Support and Guidance</h4>
+                                <p class="lead text-justify">
+                                    We believe that everyone deserves the opportunity to live a fulfilling and active
+                                    life. By providing tailored prosthetic solutions, we empower individuals to regain
+                                    independence, confidence, and mobility.
+                                </p>
+
+                            </li>
+
+                        </h5>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Contact section-->
+    <section id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Team - ByteByByte</h2>
+                    <!-- <br> -->
+                    <hr width="600 >
+                </div>
+
+
+
+                <div class=" row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <ul>
+
+                            <li>
+
+                                <h4>Utsav Poudel - Front End</h4>
+                                <p class="lead text-justify">
+                                    <!-- Team Led
+                                    <br> -->
+                                    Project Idea, Designed on Figma and Implemented Webpage
+                                </p>
+                            </li>
+
+                            <li>
+                                <h4>Aavishkar Kolte - Back End</h4>
+                                <p class="lead text-justify">
+                                    Server-side components, Security
+                                </p>
+
+                            </li>
+
+
+
+                            <li>
+                                <h4>Sai Shashank Bedampeta - Machine Learning</h4>
+                                <p class="lead text-justify">
+                                    Implementing the ML with Efficient + Resnet
+                                </p>
+                            </li>
+
+
+                            <li>
+                                <h4>Saurav Kumar Lal - Content Writer, Designer</h4>
+                                <p class="lead text-justify">
+                                    FrontEnd, User experience.
+
+                                </p>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="back-to-top">
+                <a href="#top"><i class="bi bi-arrow-up-circle"></i></a>
+            </div>
+            <div class="footer-info">
+                <div class="social-icons">
+                    <!-- <a href="https://github.com/dummy" target="_blank"><img src="/public/images/github.png" alt="GitHub"
+                            class="social-icon"></a> -->
+                    <div class="icon"> <i class="fa-brands fa-github" class="social-icon"></i></div>
+                    <div class="icon"> <i class="fa-brands fa-discord" alt="linkedin" class="social-icon"></i></div>
+                    <!-- <a href="https://discord.com/dummy" target="_blank" ><img src="/public/images/linkedin.png"
+                            alt="linkedin" class="social-icon"></a> -->
+                </div>
+                <div class="footer-text">
+                    <p class="text-white">Unifying Prosthetic Access and Support</p>
+                    <p class="text-white">&emsp;&emsp;&emsp;&emsp;&emsp;&copy; ProsTech 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing | Node Auth</title>
+    <style>
+      .nav {
+        display: flex;
+      }
+
+      .nav li {
+        list-style: none;
+        margin: 1rem;
+      }
+
+      .nav li a {
+        color: #000;
+        padding: 1rem;
+        text-decoration: none;
+        background: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav">
+      <li>
+        <a href="/login">Login</a>
+      </li>
+      <li>
+        <a href="/register">Register</a>
+      </li>
+    </ul>
+    <h3>This is the Landing Page of The Website</h3>
+  </body>
+</html> -->
