@@ -1,5 +1,4 @@
-# DevSoc23
-Hackathon
+
 # DevSoc-23
 Team  BytebyByte
 
@@ -32,8 +31,10 @@ Prosthetics are artificial devices to replace or augment a missing or impaired p
 ![ML2](https://github.com/utsav-lbrok/DevSoc-23/assets/120162400/d525c626-4e2e-4b60-b1af-d39221a25edf)
 ![ML3](https://github.com/utsav-lbrok/DevSoc-23/assets/120162400/83a48783-213b-48f2-8935-dd7ea58562d7)
 
+Result ! 
+<img width="1086" alt="Screenshot 2023-06-04 at 6 04 05 AM" src="https://github.com/utsav-lbrok/DevSoc23/assets/120162400/0955d1f8-b1dc-42e2-a91d-0284a5e15aa1">
 
-Prototype - [https://www.figma.com/file/hx2isJni2TDckoRV3V6KZk/DevSoc'23-Complete?type=design&node-id=0%3A1&t=qzw3UevQSDuzPpzW-1]
+Prototype - [[https://www.figma.com/file/hx2isJni2TDckoRV3V6KZk/DevSoc'23-Complete?type=design&node-id=0%3A1&t=qzw3UevQSDuzPpzW-1](https://www.figma.com/file/hx2isJni2TDckoRV3V6KZk/DevSoc'23-Complete?type=design&node-id=0%3A1&t=DGbfqTh2vHode0z9-1)]
 
 Doc Link - [https://docs.google.com/document/d/166AJwkaBqNOfEgH4zENIPZ66LMRVdIwkqrhQBT6y0oQ/edit?usp=sharing]
 
