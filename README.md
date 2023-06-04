@@ -5,8 +5,8 @@ Team  BytebyByte
 Track : Health and Wellness 
 
 Members & Contribution 
-Utsav Poudel - Leader
-Idea, Design-Figma,Implementation-FrontEnd 
+Utsav Poudel - FrontEnd
+Idea, Designed on Figma,Implementation on Web  
 Aavishkar Kolte – Back End Engineer
 Server-side components
 Saurav Kumar Lal - Content Writer, Designer, 
